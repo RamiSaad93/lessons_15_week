@@ -1,3 +1,8 @@
+## v 4.3
+**Published on March, 2025**
+
+- **New**: Add AI self-guided apprenticeship content (Apprenticeship)
+
 ## v 4.2
 **Published on May, 2024**
 

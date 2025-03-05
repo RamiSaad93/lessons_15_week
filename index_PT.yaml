@@ -1,8 +1,8 @@
 ---
 course:
-  name: DAPT - v.4.0
+  name: DAPT-v.4.3 (202503)
   number: MASTER
-  version: "4.0"
+  version: 4.3
   chapter:
     - name: "!Teacher Info"
       sequential:
@@ -12,6 +12,7 @@ course:
               component:
                 - type: html
                   file: teacher-info/whats-new.md
+    
     - name: Unit 1 - Introduction to Python
       sequential:
         - name: "!Teacher Info"
@@ -137,6 +138,7 @@ course:
                   deliverable_identifier: lab-python-functions-extra
                   deliverable_description: Submit the url to your work here.
                   deliverable_duedate: ''
+    
     - name: Unit 2 - Introduction to Python
       sequential:
         - name: "!Teacher Info"
@@ -242,6 +244,7 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.9_iterators_generators.md
+    
     - name: Unit 3 - Introduction to Python
       sequential:
         - name: Day 1
@@ -321,6 +324,7 @@ course:
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
+    
     - name: Unit 4 - Data Wrangling
       sequential:
         - name: Day 1
@@ -390,6 +394,7 @@ course:
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d3/day-3-checklist-shark-attacks.md
+    
     - name: Unit 5 - Data Wrangling
       sequential:
         - name: Day 1
@@ -461,6 +466,7 @@ course:
               component:
                 - type: html
                   file: 0_general/git-0-review.md
+    
     - name: Unit 6 - Module 1 Project
       sequential:
         - name: Day 1
@@ -505,6 +511,7 @@ course:
               component:
                 - type: html
                   file: 3_first_project/week3-project-brief.md
+    
     - name: Unit 7 - Module 1 Project
       sequential:
         - name: Day 1
@@ -525,6 +532,7 @@ course:
               component:
                 - type: html
                   file: 3_first_project/week3-project-brief.md
+    
     - name: Unit 8 - Module 1 Project & SQL
       sequential:
         - name: Day 1
@@ -580,6 +588,7 @@ course:
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-1-checklist.md
+    
     - name: Unit 9 - SQL
       sequential:
         - name: Day 1
@@ -668,6 +677,7 @@ course:
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-3-checklist.md
+    
     - name: Unit 10 - SQL
       sequential:
         - name: Day 1
@@ -745,6 +755,7 @@ course:
                   deliverable_description: NA
                   deliverable_required: false
                   deliverable_cutscore: 66
+    
     - name: Unit 11 - Statistics
       sequential:
         - name: Day 1
@@ -811,6 +822,7 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_2.md
+    
     - name: Unit 12 - Statistics
       sequential:
         - name: Day 1
@@ -850,6 +862,7 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_4.md
+    
     - name: Unit 13 - Statistics & Tableau
       sequential:
         - name: Day 1
@@ -904,6 +917,7 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_1.md
+    
     - name: Unit 14 - Tableau
       sequential:
         - name: Day 1
@@ -943,6 +957,7 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_3.md
+    
     - name: Unit 15 - Module 2 Project
       sequential:
         - name: Day 1
@@ -993,6 +1008,7 @@ course:
                   deliverable_description: NA
                   deliverable_required: false
                   deliverable_cutscore: 62
+    
     - name: Unit 16 - Machine Learning
       sequential:
         - name: Day 1
@@ -1047,6 +1063,7 @@ course:
               component:
                 - type: html
                   file: 7_ml/quest/d1/ml_quest_d1.md
+    
     - name: Unit 17 - Machine Learning
       sequential:
         - name: Day 1
@@ -1090,6 +1107,7 @@ course:
               component:
                 - type: html
                   file: 7_ml/quest/d3/ml_quest_d3.md
+    
     - name: Unit 18 - Machine Learning
       sequential:
         - name: Day 1
@@ -1125,6 +1143,7 @@ course:
               component:
                 - type: html
                   file: 7_ml/lesson_md/7.6_ironkaggle.md
+    
     - name: Unit 19 - Machine Learning
       sequential:
         - name: Day 1
@@ -1182,6 +1201,7 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 
+    
     - name: Unit 20 - Machine Learning & Final Project
       sequential:
         - name: Day 1
@@ -1211,6 +1231,7 @@ course:
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
+    
     - name: Unit 21 - Final Project
       sequential:
         - name: Day 1-3
@@ -1219,6 +1240,7 @@ course:
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
+    
     - name: Unit 22 - Final Project
       sequential:
         - name: Day 1-3
@@ -1227,6 +1249,7 @@ course:
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
+    
     - name: Unit 23 - Final Project
       sequential:
         - name: Day 1-3
@@ -1235,6 +1258,7 @@ course:
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
+    
     - name: Unit 24 - Final Project
       sequential:
         - name: Day 1-2
@@ -1258,5 +1282,303 @@ course:
                   deliverable_identifier: project-3
                   deliverable_description: "Submit the url to your work below: "
                   deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+
+# ############################################################################################################
+
+    - name: AI Fundamentals 1/2
+      sequential:
+        - name: Introduction to AI
+          vertical:
+            - name: Introduction to AI and its History
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-1-exploring-ai-fundamentals/lesson-1.md
+            - name: Understanding Machine Learning
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-1-exploring-ai-fundamentals/lesson-2.md
+            - name: Deep Learning and Neural Networks
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-1-exploring-ai-fundamentals/lesson-3.md
+            - name: Current AI Technologies and Their Capabilities
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-1-exploring-ai-fundamentals/lesson-4.md
+            - name: Practical Applications of AI
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-1-exploring-ai-fundamentals/lesson-5.md
+            - name: Future Trends in AI
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-1-exploring-ai-fundamentals/lesson-6.md
+            - name: "[PROJECT] Project 1: AI Concepts Integration"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-1-exploring-ai-fundamentals/module-1-project.md
+                - type: deliverable
+                  display_name: "Project 1: AI Concepts Integration"
+                  deliverable_identifier: module-1-project-ai-concepts-integration
+                  deliverable_description: "Submit the link to your online document below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+
+        - name: ChatGPT & MS Copilot
+          vertical:
+            - name: Intro to ChatGPT
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-2-mastering-chatgpt-and-microsoft-copilot/lesson-1.md
+            - name: Hands-On with ChatGPT
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-2-mastering-chatgpt-and-microsoft-copilot/lesson-2.md
+            - name: Intro to MS Copilot
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-2-mastering-chatgpt-and-microsoft-copilot/lesson-3.md
+            - name: Hands-On with MS Copilot
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-2-mastering-chatgpt-and-microsoft-copilot/lesson-4.md
+            - name: Integrating AI Tools into Workflow
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-2-mastering-chatgpt-and-microsoft-copilot/lesson-5.md
+            - name: Project Proposal Development
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-2-mastering-chatgpt-and-microsoft-copilot/lesson-6.md
+            - name: "[PROJECT] Project 2: Integrating ChatGPT & Microsoft Copilot"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-2-mastering-chatgpt-and-microsoft-copilot/module-2-project.md
+                - type: deliverable
+                  display_name: "Project 2: Integrating ChatGPT and Microsoft Copilot"
+                  deliverable_identifier: module-2-project-integrating-chatgpt-and-ms-copilot
+                  deliverable_description: "Submit the link to your online document below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+
+        - name: AI Ethics Principles
+          vertical:
+            - name: Introduction to AI Ethics
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-3-ai-ethics-principles-and-practices/lesson-1.md
+            - name: Privacy Concerns in AI
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-3-ai-ethics-principles-and-practices/lesson-2.md
+            - name: Bias and Fairness in AI
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-3-ai-ethics-principles-and-practices/lesson-3.md
+            - name: Ethical AI in Surveillance
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-3-ai-ethics-principles-and-practices/lesson-4.md
+            - name: Implementing Ethical Practices
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-3-ai-ethics-principles-and-practices/lesson-5.md
+            - name: Essay Writing and Reflection
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-3-ai-ethics-principles-and-practices/lesson-6.md
+            - name: "[PROJECT] Project 3: Analyzing and Proposing Solutions for Ethical Issues in AI"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-3-ai-ethics-principles-and-practices/module-3-project.md
+                - type: deliverable
+                  display_name: "Project 3: Analyzing and Proposing Solutions for Ethical Issues in AI"
+                  deliverable_identifier: module-3-project-analyzing-and-proposing-solutions-for-ethical-issues-in-ai
+                  deliverable_description: "Submit the link to your online document below: "
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+
+        - name: AI Security
+          vertical:
+            - name: Security Challenges in AI
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-4-security-in-ai-safeguarding-the-future/lesson-1.md
+            - name: Data Protection Techniques
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-4-security-in-ai-safeguarding-the-future/lesson-2.md
+            - name: Mitigating AI Security Risks
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-4-security-in-ai-safeguarding-the-future/lesson-3.md
+            - name: AI System Security Best Practices
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-4-security-in-ai-safeguarding-the-future/lesson-4.md
+            - name: Hands-On Security Activity
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-4-security-in-ai-safeguarding-the-future/lesson-5.md
+            - name: Security Breach Scenario Analysis
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-4-security-in-ai-safeguarding-the-future/lesson-6.md
+            - name: "[PROJECT] Project 4: Analyzing & Mitigating AI Security Breaches"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-4-security-in-ai-safeguarding-the-future/module-4-project.md
+                - type: deliverable
+                  display_name: "Project 4: Analyzing & Mitigating AI Security Breaches"
+                  deliverable_identifier: module-4-project-analyzing-and-mitigating-ai-security-breaches
+                  deliverable_description: "Submit the link to your online document below: "
+                  deliverable_duedate: ""
+                  deliverable_required: false
+                  deliverable_cutscore: 0
+
+        - name: Field Specific Application of AI
+          vertical:
+            - name: "[EXTRA] Intro to Field-Specific AI Applications"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/all-intro-lesson.md
+            - name: "[SELF_GUIDED] AI in Cybersecurity"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/lesson-1.md
+            - name: "[EXTRA] LAB | AI Network Traffic Analysis & Threat Detection"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/lesson-1-lab.md
+                - type: deliverable
+                  display_name: ai-network-traffic-analysis-threat-detection
+                  deliverable_identifier: lab-ai-network-traffic-analysis-threat-detection
+                  deliverable_description: "Submit the url to your work here."
+                  deliverable_duedate:
+                  deliverable_required: false
+                  deliverable_cutscore: 0
+            - name: "[SELF_GUIDED] AI in UX/UI Design"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/lesson-2.md
+            - name: "[EXTRA] LAB | Designing a Simple UI Using Figma & AI"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/lesson-2-lab.md
+                - type: deliverable
+                  display_name: designing-simple-ui-using-figma-with-ai-tools
+                  deliverable_identifier: lab-designing-simple-ui-using-figma-with-ai-tools
+                  deliverable_description: "Submit the url to your work here."
+                  deliverable_duedate:
+                  deliverable_required: false
+                  deliverable_cutscore: 0
+            - name: "[SELF_GUIDED] AI in Data Analytics"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/lesson-3.md
+            - name: "[EXTRA] LAB | ChatGPT Data Cleaning, Processing & Data Visualization"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/lesson-3-lab.md
+                - type: deliverable
+                  display_name: chatgpt-data-cleaning-processing-visualization
+                  deliverable_identifier: lab-chatgpt-data-cleaning-processing-visualization
+                  deliverable_description: "Submit the url to your work here."
+                  deliverable_duedate:
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+            - name: AI in Web Development
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/lesson-4.md
+            - name: "[LAB] AI-Driven Web Development"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/lesson-4-lab.md
+                - type: deliverable
+                  display_name: ai-driven-web-dev
+                  deliverable_identifier: lab-ai-driven-web-dev
+                  deliverable_description: "Submit the url to your work here."
+                  deliverable_duedate:
+                  deliverable_required: false
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Project 5: Reflective Report on AI Applications"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-5-field-specific-ai-applications-and-tools/module-5-project.md
+                - type: deliverable
+                  display_name: "Project 5: Reflective Report on AI Applications"
+                  deliverable_identifier: module-5-project-reflective-report-on-ai-applications
+                  deliverable_description: "Submit the link to your online document in the field below:"
+                  deliverable_duedate:
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+
+    ###########################################################################################
+
+    - name: AI Fundamentals 2/2
+      sequential:
+        - name: The Societal Impact of AI
+          vertical:
+            - name: AI and Employment
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-6-the-societal-impract-of-ai/lesson-1.md
+            - name: AI and Privacy
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-6-the-societal-impract-of-ai/lesson-2.md
+            - name: AI in Social Interactions
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-6-the-societal-impract-of-ai/lesson-3.md
+            - name: AI for Global Challenges
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-6-the-societal-impract-of-ai/lesson-4.md
+            - name: Ethical Responsibility for AI Developers
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-6-the-societal-impract-of-ai/lesson-5.md
+            - name: "[PROJECT] Project 6: Creating an Ethical AI Scenario"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-6-the-societal-impract-of-ai/module-6-project.md
+                - type: deliverable
+                  display_name: "Project 6: Creating an Ethical AI Scenario"
+                  deliverable_identifier: module-6-project-create-an-ethical-ai-scenario
+                  deliverable_description: "Submit the link to your online document below: "
+                  deliverable_duedate:
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+
+        - name: The Future of AI
+          vertical:
+            - name: Emerging AI Trends
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-7-navigating-the-future-of-ai/lesson-1.md
+            - name: AI Career Opportunities
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-7-navigating-the-future-of-ai/lesson-2.md
+            - name: Personal Action Plan and Vision
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-7-navigating-the-future-of-ai/lesson-3.md
+            - name: "[PROJECT] Project 7: Exploring Emerging AI Trends and Career Planning"
+              component:
+                - type: html
+                  file: 12_apprenticeship-temp/module-7-navigating-the-future-of-ai/module-7-project.md
+                - type: deliverable
+                  display_name: "Project 7: Exploring Emerging AI Trends and Career Planning"
+                  deliverable_identifier: module-7-project-exploring-emerging-ai-trends-and-career-planning
+                  deliverable_description: "Submit the link to your online document below: "
+                  deliverable_duedate:
                   deliverable_required: true
                   deliverable_cutscore: 0

@@ -1,4 +1,4 @@
-# Day 1 (Week 5)
+## Day 1 (Week 5)
 
 For the project requirements and instructions for today’s tasks in full, please refer to the project brief. However, in order to keep on track you may refer to the daily goals outlined below:
 
