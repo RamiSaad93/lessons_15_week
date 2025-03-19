@@ -1,6 +1,6 @@
 ---
 course:
-  name: DAFT - v.4.3 (202503)
+  name: DAPT-v.4.3 (202503)
   number: MASTER
   version: 4.3
   chapter:
@@ -12,11 +12,12 @@ course:
               component:
                 - type: html
                   file: teacher-info/whats-new.md
+    
     - name: Unit 1 - Introduction to Python
       sequential:
         - name: "!Teacher Info"
           vertical:
-            - name: Weekly guidelines
+            - name: Unit 1 guidelines
               component:
                 - type: html
                   file: teacher-info/week1-readme.md
@@ -26,7 +27,7 @@ course:
                   file: teacher-info/qualified.md
         - name: Day 1
           vertical:
-            - name: "[PRESENTATION] Weekly Kick Off"
+            - name: "[PRESENTATION] Unit Kick Off"
               component:
                 - type: html
                   file: shared_md/weekly-ko/week-1-ko-d1.md
@@ -34,21 +35,16 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.1_data_structures.md
-            - name: "[LAB] Lab | Data Structures"
-              component:
-                - type: html
-                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures.md
-                - type: deliverable
-                  display_name: python-data-structures
-                  deliverable_identifier: lab-python-data-structures
-                  deliverable_description: Submit the url to your work below
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0
             - name: "[MINI_PROJECT] Quest: Escape Room"
               component:
                 - type: html
                   file: 1_intro_to_python/quest/d1/python-analytics-quest-brief.md
+        - name: Day 2
+          vertical:
+            - name: "Git Installation"
+              component:
+                - type: html
+                  file: 0_general/git-installation.md
             - name: "[MINI_PROJECT] Quest - day 1: Kickstarting the Python Analytics Quest"
               component:
                 - type: html
@@ -61,34 +57,19 @@ course:
               component:
                 - type: html
                   file: 0_general/ironhack-chatbot-da.md
-            - name: "Git Installation"
+            - name: "[LAB] Lab | Data Structures"
               component:
                 - type: html
-                  file: 0_general/git-installation.md
-            - name: "[EXTRA] Lab | Data Types Extended"
-              component:
-                - type: html
-                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_types_extra.md
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures.md
                 - type: deliverable
-                  display_name: python-data-types-extra
-                  deliverable_identifier: lab-python-data-types-extra
-                  deliverable_description: Submit the url to your work here.
-                  deliverable_duedate: ''
-            - name: "[EXTRA] Lab | Data Structures Extended"
-              component:
-                - type: html
-                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_data_structures_extra.md
-                - type: deliverable
-                  display_name: python-data-structures-extra
-                  deliverable_identifier: lab-python-data-structures-extra
-                  deliverable_description: Submit the url to your work here.
-                  deliverable_duedate: ''
-        - name: Day 2
+                  display_name: python-data-structures
+                  deliverable_identifier: lab-python-data-structures
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
+        - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: "[CLASS_ACTIVITY] Group Lab Review"
               component:
                 - type: html
@@ -105,6 +86,18 @@ course:
               component:
                 - type: html
                   file: 0_general/git_github_for_labs.md
+            - name: "[MINI_PROJECT] Quest - day 2: Flow Control Fun and Coding Best Practices"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d2/day-2-quest-instructions.md
+            - name: "[MINI_PROJECT] Quest - Self Guided: Coding Best Practices"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d2/self-guided-coding-best-practices.md
+            - name: "Git & Github for labs Demo"
+              component:
+                - type: html
+                  file: 0_general/git-labs-demo.md
             - name: "[LAB] Lab | Flow Control"
               component:
                 - type: html
@@ -127,18 +120,6 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[MINI_PROJECT] Quest - day 2: Flow Control Fun and Coding Best Practices"
-              component:
-                - type: html
-                  file: 1_intro_to_python/quest/d2/day-2-quest-instructions.md
-            - name: "[MINI_PROJECT] Quest - Self Guided: Coding Best Practices"
-              component:
-                - type: html
-                  file: 1_intro_to_python/quest/d2/self-guided-coding-best-practices.md
-            - name: "Git & Github for labs Demo"
-              component:
-                - type: html
-                  file: 0_general/git-labs-demo.md
             - name: "[EXTRA] Lab | Flow Control Extended"
               component:
                 - type: html
@@ -157,16 +138,21 @@ course:
                   deliverable_identifier: lab-python-functions-extra
                   deliverable_description: Submit the url to your work here.
                   deliverable_duedate: ''
-        - name: Day 3
+    
+    - name: Unit 2 - Introduction to Python
+      sequential:
+        - name: "!Teacher Info"
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: Unit 1 guidelines
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
+                  file: teacher-info/week1-readme.md
+            - name: Qualified Platform
               component:
                 - type: html
-                  file: shared_md/lab-review-instructions.md
+                  file: teacher-info/qualified.md
+        - name: Day 1
+          vertical:
             - name: 1.03 More on Functions
               component:
                 - type: html
@@ -175,6 +161,12 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.4_list_dict_set_comprehension.md
+        - name: Day 2
+          vertical:
+            - name: "[MINI_PROJECT] Quest - day 3: Modules Mastery and Refining Functions"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d3/day-3-quest-instructions.md
             - name: "[LAB] Lab | List, dict, set comprehension"
               component:
                 - type: html
@@ -186,18 +178,6 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[MINI_PROJECT] Quest - day 3: Modules Mastery and Refining Functions"
-              component:
-                - type: html
-                  file: 1_intro_to_python/quest/d3/day-3-quest-instructions.md
-            - name: "[MINI_PROJECT] Quest - Self Guided: Modules and Packages"
-              component:
-                - type: html
-                  file: 1_intro_to_python/quest/d3/self-guided-modules-and-packages.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
             - name: "[EXTRA] Lab | List, dict, set comprehension Extended"
               component:
                 - type: html
@@ -207,12 +187,8 @@ course:
                   deliverable_identifier: lab-python-list-dict-set-comprehension-extra
                   deliverable_description: Submit the url to your work here.
                   deliverable_duedate: ''
-        - name: Day 4
+        - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: "[CLASS_ACTIVITY] Group Lab Review"
               component:
                 - type: html
@@ -225,6 +201,10 @@ course:
               component:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.6_error_handling.md
+            - name: "[MINI_PROJECT] Quest - day 4: Testing and Finishing the Quest"
+              component:
+                - type: html
+                  file: 1_intro_to_python/quest/d4/day-4-quest-instructions.md
             - name: "[LAB] Lab | Error Handling"
               component:
                 - type: html
@@ -236,18 +216,6 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[MINI_PROJECT] Quest - day 4: Testing and Finishing the Quest"
-              component:
-                - type: html
-                  file: 1_intro_to_python/quest/d4/day-4-quest-instructions.md
-            - name: "[MINI_PROJECT] Quest - Self Guided: Testing Python Code"
-              component:
-                - type: html
-                  file: 1_intro_to_python/quest/d4/self-guided-testing-python-code.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
             - name: "[EXTRA] Lab | Error Handling Extended"
               component:
                 - type: html
@@ -266,63 +234,6 @@ course:
                   deliverable_identifier: lab-python-lambda-map-reduce-filter
                   deliverable_description: Submit the url to your work here.
                   deliverable_duedate: ''
-        - name: Day 5
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
-            - name: "[PRESENTATION] Quest Presentation"
-              component:
-                - type: html
-                  file: shared_md/quest-presentations.md
-            - name: "[MINI_PROJECT] Quest 1 Deliverable"
-              component:
-                # - type: html
-                #   file: ""
-                - type: deliverable
-                  display_name: Quest 1 Deliverable
-                  deliverable_identifier: mini-project-python
-                  deliverable_description: "Submit the url to your work below: "
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0
-            - name: 1.07 Object Oriented Programming
-              component:
-                - type: html
-                  file: 1_intro_to_python/lesson_md/1.7_oop.md
-            - name: Qualified Review
-              component:
-                - type: html
-                  file: shared_md/qualified.md
-            - name: "[ASSESSMENT] Python Technical Challenge"
-              component:
-                - type: html
-                  file: shared_md/assessment-warning-and-link-to-faqs.md
-                - type: deliverable
-                  display_name: Assessment - Python
-                  deliverable_identifier: 6419b7c125edc20025e5dbf2
-                  deliverable_description: NA
-                  deliverable_duedate: ""
-                  deliverable_required: false
-                  deliverable_cutscore: 60
-            - name: "[RITUAL] Weekly Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/weekly-wrap-up.md
-            - name: "[EXTRA] Lab | Object Oriented Programming"
-              component:
-                - type: html
-                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
-                - type: deliverable
-                  display_name: python-oop
-                  deliverable_identifier: lab-python-oop
-                  deliverable_description: Submit the url to your work here.
-                  deliverable_duedate: ''
         - name: Bonus Materials
           vertical:
             - name: 1.08 Regex
@@ -334,24 +245,42 @@ course:
                 - type: html
                   file: 1_intro_to_python/lesson_md/1.9_iterators_generators.md
     
-    - name: Unit 2 - DW & Retrieval
+    - name: Unit 3 - Introduction to Python
       sequential:
-        - name: "!Teacher Info"
-          vertical:
-            - name: Weekly guidelines
-              component:
-                - type: html
-                  file: teacher-info/week2-readme.md
-            - name: Qualified Platform
-              component:
-                - type: html
-                  file: teacher-info/qualified.md
         - name: Day 1
           vertical:
-            - name: "[PRESENTATION] Weekly Kick Off"
+            - name: "[PRESENTATION] Quest Presentation"
               component:
                 - type: html
-                  file: shared_md/weekly-ko/week-2-ko-d1.md
+                  file: shared_md/quest-presentations.md
+            - name: 1.07 Object Oriented Programming
+              component:
+                - type: html
+                  file: 1_intro_to_python/lesson_md/1.7_oop.md
+        - name: Day 2
+          vertical:
+            - name: "[ASSESSMENT] Python Technical Challenge"
+              component:
+                - type: html
+                  file: shared_md/assessment-warning-and-link-to-faqs.md
+                - type: deliverable
+                  display_name: Assessment - Python
+                  deliverable_identifier: 6419b7c125edc20025e5dbf2
+                  deliverable_description: NA
+                  deliverable_duedate: ""
+                  deliverable_required: false
+                  deliverable_cutscore: 60
+            - name: "[EXTRA] Lab | Object Oriented Programming"
+              component:
+                - type: html
+                  file: 1_intro_to_python/__labs_shortcuts_md__/lab_oop.md
+                - type: deliverable
+                  display_name: python-oop
+                  deliverable_identifier: lab-python-oop
+                  deliverable_description: Submit the url to your work here.
+                  deliverable_duedate: ''
+        - name: Day 3
+          vertical:
             - name: Introduction to Data Wrangling
               component:
                 - type: html
@@ -375,6 +304,10 @@ course:
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
+            - name: "[MINI_PROJECT] Quest: Shark Attacks"
+              component:
+                - type: html
+                  file: 2_data_wrangling_and_retrieval/quest/data-wrangling-quest-shark-attacks.md
             - name: "[MINI_PROJECT] Quest Rubric"
               component:
                 - type: html
@@ -391,25 +324,17 @@ course:
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d1/day-1-checklist-shark-attacks.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-
-        - name: Day 2
+    
+    - name: Unit 4 - Data Wrangling
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: Data Cleaning and Data Manipulation
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/lesson_md/2.2_cleaning_and_data_manipulation.md
+        - name: Day 2
+          vertical:
             - name: "[LAB] Lab | Data Cleaning and Formatting"
               component:
                 - type: html
@@ -421,28 +346,12 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[MINI_PROJECT] Self-guided: Dealing with Dates"
-              component:
-                - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/d2/2.1_self_guided_dates.md
             - name: "[MINI_PROJECT] Quest: Day 2 Checklist"
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d2/day-2-checklist-shark-attacks.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-            - name: "[PROJECT] Homework: Project 1 preparation"
-              component:
-                - type: html
-                  file: shared_md/project-preps/project-1-preparation.md
         - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: "[CLASS_ACTIVITY] Group Lab Review"
               component:
                 - type: html
@@ -485,24 +394,17 @@ course:
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d3/day-3-checklist-shark-attacks.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 4
+    
+    - name: Unit 5 - Data Wrangling
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: APIs
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/lesson_md/2.5_apis.md
+        - name: Day 2
+          vertical:
             - name: "[LAB] Lab | APIs"
               component:
                 - type: html
@@ -518,31 +420,12 @@ course:
               component:
                 - type: html
                   file: 2_data_wrangling_and_retrieval/quest/d4/day-4-checklist-shark-attacks.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md   
-        - name: Day 5
+        - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: "[PRESENTATION] Quest Presentation"
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
-            - name: "[MINI_PROJECT] Quest 2 Deliverable"
-              component:
-                # - type: html
-                #   file: ""
-                - type: deliverable
-                  display_name: Quest 2 Deliverable
-                  deliverable_identifier: mini-project-dw
-                  deliverable_description: "Submit the url to your work below: "
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0
             - name: Web Scraping
               component:
                 - type: html
@@ -558,10 +441,6 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: Qualified Review
-              component:
-                - type: html
-                  file: shared_md/qualified.md
             - name: "[ASSESSMENT] Data Wrangling Technical Challenge"
               component:
                 - type: html
@@ -573,10 +452,6 @@ course:
                   deliverable_description: NA
                   deliverable_required: false
                   deliverable_cutscore: 50
-            - name: "[RITUAL] Weekly Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/weekly-wrap-up.md
         - name: Bonus Materials - Homework
           vertical:
             - name: Command Line - Intro
@@ -592,20 +467,10 @@ course:
                 - type: html
                   file: 0_general/git-0-review.md
     
-    - name: Unit 3 - First Project
+    - name: Unit 6 - Module 1 Project
       sequential:
-        - name: "!Teacher Info"
-          vertical:
-            - name: Weekly guidelines
-              component:
-                - type: html
-                  file: teacher-info/week3-readme.md
         - name: Day 1
           vertical:
-            - name: "[PRESENTATION] Weekly Kick Off"
-              component:
-                - type: html
-                  file: shared_md/weekly-ko/week-3-ko-d1.md
             - name: Git and Github - More on Git Commands
               component:
                 - type: html
@@ -626,6 +491,8 @@ course:
               component:
                 - type: html
                   file: 0_general/agile.md
+        - name: Day 2
+          vertical:
             - name: "[CLASS_ACTIVITY] Preparation for Project"
               component:
                 - type: html
@@ -633,109 +500,63 @@ course:
             - name: "[PROJECT] Project Rubric"
               component:
                 - type: html
-                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md          
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 2
-          vertical:
-            - name: "[RITUAL] Stand Up"
-              component:
-                - type: html
-                  file: shared_md/stand-ups.md
+                  file: 2_data_wrangling_and_retrieval/quest/students-rubric-quest-W2.md
             - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
               component:
                 - type: html
                   file: 3_first_project/week3-project-brief.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
         - name: Day 3
           vertical:
-            - name: "[RITUAL] Stand Up"
-              component:
-                - type: html
-                  file: shared_md/stand-ups.md
             - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
               component:
                 - type: html
                   file: 3_first_project/week3-project-brief.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 4
+    
+    - name: Unit 7 - Module 1 Project
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Stand Up"
-              component:
-                - type: html
-                  file: shared_md/stand-ups.md
             - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
               component:
                 - type: html
                   file: 3_first_project/week3-project-brief.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 5
+        - name: Day 2
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[PRESENTATION] Project Presentation"
+                  file: 3_first_project/week3-project-brief.md
+        - name: Day 3
+          vertical:
+            - name: "[PROJECT] First Project: Data Wrangling and Retrieval"
+              component:
+                - type: html
+                  file: 3_first_project/week3-project-brief.md
+    
+    - name: Unit 8 - Module 1 Project & SQL
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Quest Presentation"
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
-            - name: "[PROJECT] Project 1 Deliverable"
-              component:
-                - type: html
-                  file: ""
-                - type: deliverable
-                  display_name: Project 1 Deliverable
-                  deliverable_identifier: project-1
-                  deliverable_description: "Submit the url to your work below: "
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0
             - name: "[CLASS_ACTIVITY] Module and Project Retrospective"
               component:
                 - type: html
                   file: 3_first_project/group_activities/module-project-retro.md
+        - name: Day 2
+          vertical:
             - name: "[CLASS_ACTIVITY] Project Code Review"
               component:
                 - type: html
                   file: shared_md/project-code-review.md
-            - name: "[RITUAL] Weekly Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/weekly-wrap-up.md
             - name: "[SELF_GUIDED] Homework: SQL Installation"
               component:
                 - type: html
                   file: 0_general/sql-installation.md
-    
-    - name: Unit 4 - SQL
-      sequential:
-        - name: "!Teacher Info"
+        - name: Day 3
           vertical:
-            - name: Weekly guidelines
-              component:
-                - type: html
-                  file: teacher-info/week4-readme.md
-        - name: Day 1
-          vertical:
-            - name: "[PRESENTATION] Weekly Kick Off"
-              component:
-                - type: html
-                  file: shared_md/weekly-ko/week-4-ko-d1.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: Introduction to Databases
               component:
                 - type: html
@@ -767,20 +588,11 @@ course:
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-1-checklist.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 2
+    
+    - name: Unit 9 - SQL
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: Basic SQL Queries
               component:
                 - type: html
@@ -789,6 +601,8 @@ course:
               component:
                 - type: html
                   file: 4_sql/lesson_md/4.2.1_sql_queries_hands_on.md  
+        - name: Day 2
+          vertical: 
             - name: "[LAB] Lab | SQL Basic Queries"
               component:
                 - type: html
@@ -815,16 +629,8 @@ course:
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-2-checklist.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
         - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: "[CLASS_ACTIVITY] Group Lab Review"
               component:
                 - type: html
@@ -871,20 +677,11 @@ course:
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-3-checklist.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 4
+    
+    - name: Unit 10 - SQL
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: SQL Temporary Tables, Views and CTEs
               component:
                 - type: html
@@ -901,6 +698,8 @@ course:
               component:
                 - type: html
                   file: 4_sql/lesson_md/4.6.1_sql_window_functions_hands_on.md  
+        - name: Day 2
+          vertical:
             - name: "[LAB] Lab | Temporary Tables, Views and CTEs"
               component:
                 - type: html
@@ -916,40 +715,12 @@ course:
               component:
                 - type: html
                   file: 4_sql/quest/sql-mini-project-day-4-checklist.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-            - name: "[EXTRA] Lab | SQL Window Functions"
-              component:
-                - type: html
-                  file: 4_sql/__labs_shortcuts_md__/lab_sql_window_functions.md
-                - type: deliverable
-                  display_name: sql-window-functions
-                  deliverable_identifier: lab-sql-window-functions
-                  deliverable_description: Submit the url to your work here.
-                  deliverable_duedate: ''
-        - name: Day 5
+        - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[PRESENTATION] Mini Project Presentation"
+            - name: "[PRESENTATION] Quest Presentation"
               component:
                 - type: html
                   file: shared_md/quest-presentations.md
-            - name: "[MINI_PROJECT] Mini Project Deliverable"
-              component:
-                - type: html
-                  file: ""
-                - type: deliverable
-                  display_name: Mini Project 1 Deliverable
-                  deliverable_identifier: mini-project-sql
-                  deliverable_description: "Submit the url to your work below: "
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0
             - name: Connecting SQL and Python
               component:
                 - type: html
@@ -984,29 +755,11 @@ course:
                   deliverable_description: NA
                   deliverable_required: false
                   deliverable_cutscore: 66
-            - name: "[RITUAL] Weekly Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/weekly-wrap-up.md
     
-    - name: Unit 5 - EDA and Inferential Stats
+    - name: Unit 11 - Statistics
       sequential:
-        - name: "!Teacher Info"
-          vertical:
-            - name: Weekly guidelines
-              component:
-                - type: html
-                  file: teacher-info/week5-6-readme.md
         - name: Day 1
           vertical:
-            - name: "[PRESENTATION] Weekly Kick Off"
-              component:
-                - type: html
-                  file: shared_md/weekly-ko/week-5-ko-d1.md
-            - name: Project Setup
-              component:
-                - type: html
-                  file: 0_general/project-setup.md
             - name: Introduction to EDA and Univariate Analysis
               component:
                 - type: html
@@ -1015,6 +768,8 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.1.2_intro_to_eda_and_univariate_hands_on.md
+        - name: Day 2
+          vertical:
             - name: "[LAB] Lab | EDA Univariate Analysis"
               component:
                 - type: html
@@ -1034,20 +789,12 @@ course:
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/students-rubric-quest-W5-6.md
-            - name: "[PROJECT] Second Project: Week 5 Day 1 Checklist"
+            - name: "[PROJECT] Second Project: Day 1 Checklist"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_1.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 2
+        - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: "[CLASS_ACTIVITY] Group Lab Review"
               component:
                 - type: html
@@ -1071,50 +818,35 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Second Project: Week 5 Day 2 Checklist"
+            - name: "[PROJECT] Second Project: Day 2 Checklist"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_2.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 3
+    
+    - name: Unit 12 - Statistics
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: "Intro to Probability"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.11_intro_to_probability.md
-            - name: "[PROJECT] Second Project: Week 5 Day 3 Checklist"
+        - name: Day 2
+          vertical:
+            - name: "[PROJECT] Second Project: Day 3 Checklist"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_3.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 4
+        - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: "Intro to Probability"
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.11_intro_to_probability.md
             - name: "Hypothesis Testing"
               component:
                 - type: html
-                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.12_hypothesis_testing.md           
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.12_hypothesis_testing.md        
             - name: "[LAB]  Intro to Probability"
               component:
                 - type: html
@@ -1126,28 +858,25 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Second Project: Week 5 Day 4 Checklist"
+            - name: "[PROJECT] Second Project: Day 4 Checklist"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_4.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 5
+    
+    - name: Unit 13 - Statistics & Tableau
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: "Hypothesis Testing"
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
+                  file: 5_6_eda_inf_stats_tableau/lesson_md/5.12_hypothesis_testing.md  
             - name: More on Correlation and Normality
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.7_correlation_normality.md
+        - name: Day 2
+          vertical:
             - name: "[LAB]  Hypothesis Testing"
               component:
                 - type: html
@@ -1158,40 +887,13 @@ course:
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
-                  deliverable_cutscore: 0            
-            - name: "[PROJECT] Second Project: Week 5 Day 5 Checklist"
+                  deliverable_cutscore: 0
+            - name: "[PROJECT] Second Project: Day 5 Checklist"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_5_Day_5.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-            - name: Homework - Tableau Installation
-              component:
-                - type: html
-                  file: 0_general/tableau-installation.md
-        - name: Bonus
+        - name: Day 3
           vertical:
-            - name: Streamlit
-              component:
-                - type: html
-                  file: 5_6_eda_inf_stats_tableau/project/self_guided_lessons/streamlit/streamlit.md
-    
-    - name: Unit 6 - Tableau and Project 2
-      sequential:
-        - name: "!Teacher Info"
-          vertical:
-            - name: Weekly guidelines
-              component:
-                - type: html
-                  file: teacher-info/week5-6-readme.md
-        - name: Day 1
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: DA Recap
               component:
                 - type: html
@@ -1211,28 +913,21 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Second Project: Week 6 Day 1 Checklist"
+            - name: "[PROJECT] Second Project: Day 6 Checklist"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_1.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 2
+    
+    - name: Unit 14 - Tableau
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: Tableau
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.4_tableau_part_II.md
+        - name: Day 2
+          vertical:
             - name: "[LAB] Lab | Tableau Advanced"
               component:
                 - type: html
@@ -1244,60 +939,41 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] Second Project: Week 6 Day 2 Checklist"
+            - name: "[PROJECT] Second Project: Day 7 Checklist"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_2.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
         - name: Day 3
           vertical:
-            - name: "[RITUAL] Stand Up"
-              component:
-                - type: html
-                  file: shared_md/stand-ups.md
             - name: Storytelling
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.9_storytelling.md
-            - name: Build an API
-              component:
-                - type: html
-                  file: 5_6_eda_inf_stats_tableau/lesson_md/6.7_build_api.md
-            - name: "[PROJECT] Second Project: Week 6 Day 3 Checklist"
-              component:
-                - type: html
-                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_3.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 4
-          vertical:
-            - name: "[RITUAL] Stand Up"
-              component:
-                - type: html
-                  file: shared_md/stand-ups.md
             - name: Data roles
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/lesson_md/5.10_data_roles.md
-            - name: "[PROJECT] Second Project: Week 6 Day 4 Checklist"
+            - name: "[PROJECT] Second Project: Day 8 Checklist"
+              component:
+                - type: html
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_3.md
+    
+    - name: Unit 15 - Module 2 Project
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PROJECT] Second Project: Day 9 Checklist"
               component:
                 - type: html
                   file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_4.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 5
+        - name: Day 2
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: "[PROJECT] Second Project: Day 10 Checklist"
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
+                  file: 5_6_eda_inf_stats_tableau/project/daily_tasks/Week_6_Day_4.md
+        - name: Day 3
+          vertical:
             - name: "[PRESENTATION] Project Presentation"
               component:
                 - type: html
@@ -1321,10 +997,6 @@ course:
               component:
                 - type: html
                   file: shared_md/project-code-review.md
-            - name: "[RITUAL] Weekly Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/weekly-wrap-up.md
             - name: "[ASSESSMENT] EDA Technical Challenge"
               component:
                 - type: html
@@ -1337,20 +1009,10 @@ course:
                   deliverable_required: false
                   deliverable_cutscore: 62
     
-    - name: Unit 7 - Machine Learning
+    - name: Unit 16 - Machine Learning
       sequential:
-        - name: "!Teacher Info"
-          vertical:
-            - name: Weekly guidelines
-              component:
-                - type: html
-                  file: teacher-info/week7-readme.md
         - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: Intro to Machine Learning
               component:
                 - type: html
@@ -1359,6 +1021,8 @@ course:
               component:
                 - type: html
                   file: 7_ml/lesson_md/7.1.2_intro_to_ml_hands_on.md
+        - name: Day 2
+          vertical:
             - name: "[LAB] Lab | Intro to Machine Learning"
               component:
                 - type: html
@@ -1374,24 +1038,8 @@ course:
               component:
                 - type: html
                   file: 7_ml/quest/ml_quest.md
-            - name: "[PROJECT] ML Project Day 1"
-              component:
-                - type: html
-                  file: 7_ml/quest/d1/ml_quest_d1.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 2
+        - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[CLASS_ACTIVITY] Group Lab Review"
-              component:
-                - type: html
-                  file: shared_md/lab-review-instructions.md
             - name: Feature Engineering
               component:
                 - type: html
@@ -1399,7 +1047,7 @@ course:
             - name: Feature Engineering Hands on
               component:
                 - type: html
-                  file: 7_ml/lesson_md/7.2.1_feature_engineering_hands_on.md                 
+                  file: 7_ml/lesson_md/7.2.1_feature_engineering_hands_on.md 
             - name: "[LAB] Lab | Feature Engineering"
               component:
                 - type: html
@@ -1411,20 +1059,15 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[PROJECT] ML Project Day 2"
+            - name: "[PROJECT] ML Project Day 1"
               component:
                 - type: html
-                  file: 7_ml/quest/d2/ml_quest_d2.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 3
+                  file: 7_ml/quest/d1/ml_quest_d1.md
+    
+    - name: Unit 17 - Machine Learning
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: Machine Learning Supervised
               component:
                 - type: html
@@ -1433,6 +1076,14 @@ course:
               component:
                 - type: html
                   file: 7_ml/lesson_md/7.3.1_ml_supervised_hands_on.md
+        - name: Day 2
+          vertical:
+            - name: "[PROJECT] ML Project Day 2"
+              component:
+                - type: html
+                  file: 7_ml/quest/d2/ml_quest_d2.md
+        - name: Day 3
+          vertical:
             - name: Ensemble Methods
               component:
                 - type: html
@@ -1456,16 +1107,11 @@ course:
               component:
                 - type: html
                   file: 7_ml/quest/d3/ml_quest_d3.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 4
+    
+    - name: Unit 18 - Machine Learning
+      sequential:
+        - name: Day 1
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
             - name: Hyperparameter Tuning
               component:
                 - type: html
@@ -1474,14 +1120,8 @@ course:
               component:
                 - type: html
                   file: 7_ml/lesson_md/7.4.1_hyperparameter_tuning_hands_on.md
-            - name: Imbalanced
-              component:
-                - type: html
-                  file: 7_ml/lesson_md/7.5_imbalanced.md
-            - name: Imbalanced Hands on
-              component:
-                - type: html
-                  file: 7_ml/lesson_md/7.5.1_imbalanced_hands_on.md
+        - name: Day 2
+          vertical:
             - name: "[LAB] Lab | Hyperparameter Tuning"
               component:
                 - type: html
@@ -1496,25 +1136,43 @@ course:
             - name: "[PROJECT] ML Project Day 4"
               component:
                 - type: html
-                  file: 7_ml/quest/d4/ml_quest_d4.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 5
+                  file: 7_ml/quest/d2/ml_quest_d4.md
+        - name: Day 3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[PRESENTATION] Project Presentation"
-              component:
-                - type: html
-                  file: shared_md/quest-presentations.md
             - name: "[CLASS_ACTIVITY] IronKaggle"
               component:
                 - type: html
                   file: 7_ml/lesson_md/7.6_ironkaggle.md
+    
+    - name: Unit 19 - Machine Learning
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: Imbalanced
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.5_imbalanced.md
+            - name: Imbalanced Hands on
+              component:
+                - type: html
+                  file: 7_ml/lesson_md/7.5.1_imbalanced_hands_on.md
+        - name: Day 2
+          vertical:
+            - name: "[SELF_GUIDED] Intro to Cloud Computing"
+              component:
+                - type: html
+                  file: 8_ai/lesson_md/8.4_cloud.md
+            - name: "[CLASS_ACTIVITY] Cloud Computing Projects"
+              component:
+                - type: html
+                  file: 8_ai/group_activities/8.4_mini_project_cloud.md
+                - type: deliverable
+                  display_name: cloud
+                  deliverable_identifier: group-activity-cloud
+                  deliverable_description: Submit the url to your work below
+                  deliverable_duedate: ""
+                  deliverable_required: true
+                  deliverable_cutscore: 0
             - name: "[LAB] Lab | Imbalanced"
               component:
                 - type: html
@@ -1525,15 +1183,8 @@ course:
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
-                  deliverable_cutscore: 0 
-            - name: "[RITUAL] Weekly Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/weekly-wrap-up.md
-    
-    - name: Unit 8 - LLMs, Cloud Computing and Final Project
-      sequential:
-        - name: Day 1
+                  deliverable_cutscore: 
+        - name: Day 3
           vertical:
             - name: Intro to LLMs
               component:
@@ -1549,54 +1200,23 @@ course:
                   deliverable_description: Submit the url to your work below
                   deliverable_duedate: ""
                   deliverable_required: true
-                  deliverable_cutscore: 0
-            - name: "[PROJECT] Final Project Brief"
+                  deliverable_cutscore: 
+    
+    - name: Unit 20 - Machine Learning & Final Project
+      sequential:
+        - name: Day 1
+          vertical:
+            - name: "[PRESENTATION] Project Presentation"
               component:
                 - type: html
-                  file: 8_ai/project/final_project_brief.md
-            - name: "[PROJECT] Final Project Rubric"
-              component:
-                - type: html
-                  file: 8_ai/project/final_project_rubric.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
+                  file: shared_md/quest-presentations.md
+            - name: "[CLASS_ACTIVITY] IronKaggle Review"
         - name: Day 2
           vertical:
             - name: "[RITUAL] Stand Up"
               component:
                 - type: html
                   file: shared_md/stand-ups.md
-            - name: Intro to Cloud Computing
-              component:
-                - type: html
-                  file: 8_ai/lesson_md/8.4_cloud.md
-            - name: "[CLASS_ACTIVITY] Cloud Computing Projects"
-              component:
-                - type: html
-                  file: 8_ai/group_activities/8.4_mini_project_cloud.md
-                - type: deliverable
-                  display_name: cloud
-                  deliverable_identifier: group-activity-cloud
-                  deliverable_description: Submit the url to your work below
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0
-            - name: "[PROJECT] Final Project"
-              component:
-                - type: html
-                  file: 8_ai/project/final_project_brief.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 3 - 5
-          vertical:
-            - name: "[RITUAL] Stand Up"
-              component:
-                - type: html
-                  file: shared_md/stand-ups.md
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
@@ -1605,37 +1225,50 @@ course:
               component:
                 - type: html
                   file: 8_ai/project/final_project_rubric.md
-            - name: "[RITUAL] Daily Wrap Up"
+        - name: Day 3
+          vertical:
+            - name: "[PROJECT] Final Project"
               component:
                 - type: html
-                  file: shared_md/daily-wrap-up.md
-
-    - name: Unit 9 - Final Project
+                  file: 8_ai/project/final_project_brief.md
+    
+    - name: Unit 21 - Final Project
       sequential:
-        - name: Day 1 - 4
+        - name: Day 1-3
           vertical:
-            - name: "[RITUAL] Stand Up"
-              component:
-                - type: html
-                  file: shared_md/stand-ups.md
             - name: "[PROJECT] Final Project"
               component:
                 - type: html
                   file: 8_ai/project/final_project_brief.md
-            - name: "[PROJECT] Final Project Rubric"
-              component:
-                - type: html
-                  file: 8_ai/project/final_project_rubric.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 5
+    
+    - name: Unit 22 - Final Project
+      sequential:
+        - name: Day 1-3
           vertical:
-            - name: "[RITUAL] Daily Kick Off"
+            - name: "[PROJECT] Final Project"
               component:
                 - type: html
-                  file: shared_md/daily-kick-off.md
+                  file: 8_ai/project/final_project_brief.md
+    
+    - name: Unit 23 - Final Project
+      sequential:
+        - name: Day 1-3
+          vertical:
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_brief.md
+    
+    - name: Unit 24 - Final Project
+      sequential:
+        - name: Day 1-2
+          vertical:
+            - name: "[PROJECT] Final Project"
+              component:
+                - type: html
+                  file: 8_ai/project/final_project_brief.md
+        - name: Day 3
+          vertical:
             - name: "[PRESENTATION] Project Presentation"
               component:
                 - type: html
@@ -1651,135 +1284,6 @@ course:
                   deliverable_duedate: ""
                   deliverable_required: true
                   deliverable_cutscore: 0
-            - name: "[RITUAL] Weekly Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/weekly-wrap-up.md
-    
-    - name: Unit 10 - Extra Week 1
-      sequential:
-        - name: Day 1 
-          vertical:
-            - name: Recap Web Scraping & Spotify Structure
-              component:
-                - type: html
-                  file: 10_extraweek/lesson_md/10.1_ws_api.md           
-            - name: "[PROJECT] Gnod Project"
-              component:
-                - type: html
-                  file: 10_extraweek/quest/Case_Study_Gnod_Song_Recommender.md
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 2
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "Unsupervised Learning Methods"
-              component:
-                - type: html
-                  file: 10_extraweek/lesson_md/10.2_unsupervised_learning.md
-        - name: Day 3
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "Unsupervised Learning Metrics"
-              component:
-                - type: html
-                  file: 10_extraweek/lesson_md/10.3_unsupervised_learning_pt2.md
-        - name: Day 4
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "Streamlit"
-              component:
-                - type: html
-                  file: 10_extraweek/lesson_md/10.4_streamlit.md
-        - name: Day 5
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "[PROJECT] Week 10 Deliverable"
-              component:
-                - type: html
-                  file: ""
-                - type: deliverable
-                  display_name: Week 10 Deliverable
-                  deliverable_identifier: quest_w10
-                  deliverable_description: "Submit the url to your work below: "
-                  deliverable_duedate: ""
-                  deliverable_required: true
-                  deliverable_cutscore: 0
-            - name: "PCA Introduction"
-              component:
-                - type: html
-                  file: 10_extraweek/lesson_md/10.5_pca.md
-    
-    - name: Unit 11 - Extra Week 2
-      sequential:
-        - name: Day 1 
-          vertical:
-            - name: Google Cloud Platform
-              component:
-                - type: html
-                  file: 11_extraweek/lesson_md/11.01_bigquery.md           
-            - name: "[RITUAL] Daily Wrap Up"
-              component:
-                - type: html
-                  file: shared_md/daily-wrap-up.md
-        - name: Day 2
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "Numpy"
-              component:
-                - type: html
-                  file: 11_extraweek/lesson_md/11.1_numpy.md  
-        - name: Day 3
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "Introduction PyTorch Tensors"
-              component:
-                - type: html
-                  file: 11_extraweek/lesson_md/11.2_intro_tensors.md
-            - name: "Simple Neural Network"
-              component:
-                - type: html
-                  file: 11_extraweek/lesson_md/11.3_simple_nn.md
-        - name: Day 4
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "Build an LLM"
-              component:
-                - type: html
-                  file: 11_extraweek/lesson_md/11.4_building_llm.md
-        - name: Day 5
-          vertical:
-            - name: "[RITUAL] Daily Kick Off"
-              component:
-                - type: html
-                  file: shared_md/daily-kick-off.md
-            - name: "Neural Network Example"
-              component:
-                - type: html
-                  file: 11_extraweek/lesson_md/11.5_nn_example.md
 
 # ############################################################################################################
 
