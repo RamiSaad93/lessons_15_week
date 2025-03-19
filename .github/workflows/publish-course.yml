@@ -1,0 +1,22 @@
+name: Publish Course
+
+on:
+  push:
+    branches:
+      - 'cohort-*'
+      - 'published-*'
+      - main
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # Required permissions for commit comments
+    permissions:
+      contents: write # Required for commit comments and checkout
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish Course
+        uses: data-bootcamp-v4/ironhack-course-publish@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
