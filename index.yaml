@@ -33,7 +33,7 @@ course:
             - name: 1.01 Data Structures - Prework Review
               component:
                 - type: html
-                  file: 1_intro_to_python/lesson_md/1.1_data_structures.md
+                  file: 1_intro_to_python/1.1_data_structures.ipynb
             - name: "[LAB] Lab | Data Structures"
               component:
                 - type: html
